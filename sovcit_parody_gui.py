@@ -463,6 +463,164 @@ TOPICS = [
     }
 ]
 
+TITLE_CATEGORY_MAP = {
+    "Right to Travel": "Travel / Driving",
+    "Strawman / ALL CAPS Name Theory": "Identity / Strawman",
+    "UCC Filing / Secret Treasury Account": "Commercial / UCC / Maritime",
+    "Maritime / Admiralty Law in Ordinary Court": "Commercial / UCC / Maritime",
+    "No Consent = No Jurisdiction": "Consent / Contract",
+    "Common Law Overrides Statutory Law": "Semantics / Word Games",
+    "Refusing Name / Personhood Questions": "Identity / Strawman",
+    "Taxes Are Voluntary": "Rights Without Duties / Contradictions",
+    "License Plates / Registration Are Unnecessary for Private Use": "Travel / Driving",
+    "Police / Courts Need an Injured Party": "Rights Without Duties / Contradictions",
+    "Represent vs Re-Present / Understand vs Under-Stand": "Semantics / Word Games",
+    "Self-Representation / Lawyer Mockery Reversal": "Procedural Stall Tactics",
+}
+
+TOPICS += [
+    {
+        "category": "Jurisdiction",
+        "title": "Subject-Matter Jurisdiction by Script Challenge",
+        "aliases": ["prove subject matter jurisdiction", "subject matter challenge", "jurisdiction proof demand"],
+        "tags": ["jurisdiction", "subject matter", "challenge", "court power"],
+        "sovcit_claim": "Before anything proceeds, prove subject-matter jurisdiction on the record with verified evidence and a wet-ink constitutional grant.",
+        "sovcit_explanation": "This tactic reframes routine judicial authority as if it must be re-proven from scratch every hearing by custom script language.",
+        "flaw_summary": "Subject-matter jurisdiction is determined by law and court structure, not by litigant keyword rituals.",
+        "legal_reality": "If the court is legally authorized to hear the case type and procedure is proper, subject-matter jurisdiction exists without theatrical incantations.",
+        "court_reality": "Judges reject this when used as a delay loop because the issue has usually already been resolved by statute and case assignment.",
+        "judicial_pushback": "Typical bench response: jurisdiction has been established; move to the merits.",
+        "semantic_trick": "Treating legal terminology as passphrases that unlock or disable the court.",
+        "parody_citation": "Claimed authority stack: one highlighted dictionary page and seventeen demands for a 'wet-ink constitution.'",
+    },
+    {
+        "category": "Jurisdiction",
+        "title": "Personal Jurisdiction Refusal by Special Appearance",
+        "aliases": ["special appearance", "no personal jurisdiction", "appear specially"],
+        "tags": ["personal jurisdiction", "appearance", "consent", "service"],
+        "sovcit_claim": "I am here by special appearance only, not general appearance, so the court cannot exercise personal jurisdiction over me.",
+        "sovcit_explanation": "The script tries to convert appearance wording into an immunity switch, even after proper service and lawful process.",
+        "flaw_summary": "Personal jurisdiction depends on legal standards like presence, contacts, and service, not magic phrasing.",
+        "legal_reality": "A litigant cannot usually erase personal jurisdiction with labels once jurisdictional prerequisites are met under governing rules.",
+        "court_reality": "Judges reject this when unsupported because terminology alone does not defeat jurisdiction.",
+        "judicial_pushback": "Typical bench response: your word choice about appearance does not nullify this court's authority.",
+        "semantic_trick": "Turning procedural vocabulary into a supposed off-switch.",
+        "parody_citation": "Claimed authority stack: special appearance declaration plus extreme confidence in punctuation.",
+    },
+    {
+        "category": "Consent / Contract",
+        "title": "Conditional Acceptance Spiral",
+        "aliases": ["conditional acceptance", "i accept upon proof", "proof of claim"],
+        "tags": ["contract", "acceptance", "proof", "condition"],
+        "sovcit_claim": "I conditionally accept all claims upon verified proof under commercial liability terms.",
+        "sovcit_explanation": "This tactic repackages criminal/civil procedure as private contract negotiation to avoid direct answers.",
+        "flaw_summary": "Courts are not compelled to litigate via unilateral private contract templates.",
+        "legal_reality": "Procedural rules govern pleadings and evidence; parties cannot replace them with personal commercial terms.",
+        "court_reality": "Judges reject repetitive conditional acceptance language when it avoids actual pleading obligations.",
+        "judicial_pushback": "Typical bench response: enter a direct plea or response consistent with court rules.",
+        "semantic_trick": "Pretending every accusation is a negotiable invoice.",
+        "parody_citation": "Claimed authority stack: stamped affidavit template and five pages of 'upon proof' loops.",
+    },
+    {
+        "category": "Travel / Driving",
+        "title": "License Only Required for Commerce",
+        "aliases": ["license only for commerce", "not for hire", "private traveler"],
+        "tags": ["license", "commerce", "travel", "driving"],
+        "sovcit_claim": "Because I am not transporting goods or passengers for hire, a driver license statute does not apply to me.",
+        "sovcit_explanation": "The argument narrows licensing law to commercial trucking by personal reinterpretation.",
+        "flaw_summary": "Licensing schemes typically apply to operating motor vehicles on public roads, not only paid commerce.",
+        "legal_reality": "States can require licensing for ordinary operation to protect safety regardless of profit motive.",
+        "court_reality": "Judges reject this because non-commercial driving is still regulated driving.",
+        "judicial_pushback": "Typical bench response: private purpose does not erase licensing obligations.",
+        "semantic_trick": "Conflating selected commercial definitions with all road-use law.",
+        "parody_citation": "Claimed authority stack: 'not for hire' window sticker and a homemade constitutional citation.",
+    },
+    {
+        "category": "Semantics / Word Games",
+        "title": "Plead Equity to Freeze the Case",
+        "aliases": ["plead equity", "equity jurisdiction demand", "chancery style plea"],
+        "tags": ["equity", "procedure", "pleading", "semantics"],
+        "sovcit_claim": "I plead equity and require this tribunal to proceed only under maxims of equity, not statutory codes.",
+        "sovcit_explanation": "This phrase is used as a mode-switch request to exit ordinary procedural rules.",
+        "flaw_summary": "Invoking equity buzzwords does not automatically displace controlling statutes and rules.",
+        "legal_reality": "Whether equitable relief is available depends on legal doctrine and case posture, not slogan invocation.",
+        "court_reality": "Judges reject this when it is untethered to a real legal basis for equitable jurisdiction.",
+        "judicial_pushback": "Typical bench response: identify a cognizable claim; rhetoric is not a pleading.",
+        "semantic_trick": "Using old legal vocabulary as a procedural escape hatch.",
+        "parody_citation": "Claimed authority stack: maxims poster from the internet and ceremonial 'chancery' tone.",
+    },
+    {
+        "category": "Judge / Court Role Reassignment",
+        "title": "Judge as Fiduciary for the Defendant",
+        "aliases": ["judge is fiduciary", "judge as trustee", "judge owes me duty"],
+        "tags": ["judge", "fiduciary", "trustee", "duty"],
+        "sovcit_claim": "The judge is my trustee and fiduciary and must act in my commercial best interest.",
+        "sovcit_explanation": "This flips courtroom roles by asserting private trust duties that do not govern judicial office.",
+        "flaw_summary": "Judges are neutral adjudicators, not personal fiduciaries to defendants.",
+        "legal_reality": "Judicial ethics require impartiality and adherence to law, not financial guardianship for one party.",
+        "court_reality": "Judges reject this because it misstates fundamental court structure.",
+        "judicial_pushback": "Typical bench response: the court has no trustee relationship with you.",
+        "semantic_trick": "Importing trust-law labels into unrelated proceedings.",
+        "parody_citation": "Claimed authority stack: trust diagram on a napkin and a demand for 'beneficiary accounting.'",
+    },
+    {
+        "category": "Oath / Authority Challenges",
+        "title": "Show Your Oath and Bar Card",
+        "aliases": ["show your oath", "show bar card", "prove authority oath"],
+        "tags": ["oath", "bar card", "authority", "judge", "prosecutor"],
+        "sovcit_claim": "Before I answer, every official must produce oath documents and bar credentials for validation.",
+        "sovcit_explanation": "Credential demands are used as stalling tactics and framed as jurisdiction prerequisites.",
+        "flaw_summary": "Routine proceedings do not pause indefinitely for ad hoc credential theater.",
+        "legal_reality": "Officials derive authority from appointment, office, and law; authenticity disputes follow established procedures.",
+        "court_reality": "Judges reject performative interruptions that do not raise a legally material issue.",
+        "judicial_pushback": "Typical bench response: credentials are not the issue presently before the court.",
+        "semantic_trick": "Treating public-office legitimacy as an on-demand game show challenge.",
+        "parody_citation": "Claimed authority stack: smartphone camera, citizen audit energy, and repeated 'for the record' declarations.",
+    },
+    {
+        "category": "Commercial / UCC / Maritime",
+        "title": "Secured Party Creditor Immunity Claim",
+        "aliases": ["secured party creditor", "spc status", "creditor immunity"],
+        "tags": ["secured party", "ucc", "creditor", "immunity"],
+        "sovcit_claim": "As a secured party creditor I stand above debtor statutes and cannot be compelled by this court.",
+        "sovcit_explanation": "The script asserts a self-declared commercial status that supposedly outranks criminal/civil authority.",
+        "flaw_summary": "Self-styled creditor labels do not create immunity from public law.",
+        "legal_reality": "Secured transaction concepts govern consensual commercial relationships and do not nullify court jurisdiction.",
+        "court_reality": "Judges reject this because status assertions are irrelevant to the charged legal duties.",
+        "judicial_pushback": "Typical bench response: UCC terminology does not exempt you from these proceedings.",
+        "semantic_trick": "Using high-sounding finance terms as jurisdiction camouflage.",
+        "parody_citation": "Claimed authority stack: embossed folder, red thumbprint, and a declaration of sovereign accounting supremacy.",
+    },
+    {
+        "category": "Procedural Stall Tactics",
+        "title": "Repeat-the-Question Loop",
+        "aliases": ["repeat the question", "i do not understand loop", "refusal to plead"],
+        "tags": ["stall", "procedure", "plea", "delay"],
+        "sovcit_claim": "I cannot proceed because I do not understand your question; please restate and define every term.",
+        "sovcit_explanation": "Used repeatedly, this creates delay while avoiding straightforward plea or response requirements.",
+        "flaw_summary": "Courts allow clarification, but not endless recursion to obstruct proceedings.",
+        "legal_reality": "Judges may simplify wording and then require a direct answer under procedural rules.",
+        "court_reality": "Judges reject repetitive bad-faith loops and can enter appropriate rulings when refusal continues.",
+        "judicial_pushback": "Typical bench response: the question has been asked and explained; answer now.",
+        "semantic_trick": "Performing confusion as a substitute for legal argument.",
+        "parody_citation": "Claimed authority stack: infinite loop of 'for clarity' requests and strategic sighing.",
+    },
+    {
+        "category": "Rights Without Duties / Contradictions",
+        "title": "No Citizenship Duties but Full State Protection",
+        "aliases": ["not a citizen but want rights", "no duty obey law", "state protection anyway"],
+        "tags": ["citizenship", "duties", "rights", "contradiction"],
+        "sovcit_claim": "I am not a statutory citizen and do not owe obedience, but government services must still protect me fully.",
+        "sovcit_explanation": "This position keeps desired benefits while rejecting corresponding obligations under the same legal system.",
+        "flaw_summary": "The claim is internally contradictory: it seeks legal protection while denying legal accountability.",
+        "legal_reality": "Legal systems define rights, duties, and remedies together; selective opt-out by declaration is not generally recognized.",
+        "court_reality": "Judges reject this because law is not an à la carte menu.",
+        "judicial_pushback": "Typical bench response: you cannot claim all protections while disclaiming all obligations.",
+        "semantic_trick": "Switching frameworks mid-argument whenever convenient.",
+        "parody_citation": "Claimed authority stack: maximum entitlement with minimum legal reciprocity.",
+    },
+]
+
 
 class SovCitApp:
     def __init__(self, root: tk.Tk):
@@ -474,13 +632,14 @@ class SovCitApp:
         self.topics = TOPICS
         self.title_index = {topic["title"]: topic for topic in self.topics}
         self.mode_var = tk.StringVar(value="Balanced")
+        self.category_var = tk.StringVar(value="All Categories")
         self.search_var = tk.StringVar()
         self.topic_var = tk.StringVar()
         self.status_var = tk.StringVar(value="Ready.")
 
         self._build_style()
         self._build_ui()
-        self._populate_dropdown()
+        self._populate_dropdowns()
         self.display_topic(self.topics[0], source_label="Loaded default topic")
 
     def _build_style(self):
@@ -534,6 +693,11 @@ class SovCitApp:
         row2 = ttk.Frame(controls)
         row2.pack(fill="x", pady=(10, 0))
 
+        ttk.Label(row2, text="Category:").pack(side="left")
+        self.category_combo = ttk.Combobox(row2, textvariable=self.category_var, state="readonly", width=28)
+        self.category_combo.pack(side="left", padx=(6, 10))
+        self.category_combo.bind("<<ComboboxSelected>>", lambda event: self.on_category_change())
+
         ttk.Label(row2, text="Topic:").pack(side="left")
         self.topic_combo = ttk.Combobox(row2, textvariable=self.topic_var, state="readonly", width=46)
         self.topic_combo.pack(side="left", padx=(6, 8))
@@ -582,11 +746,46 @@ class SovCitApp:
         text.tag_configure("mono", font=("Consolas", 10))
         return text
 
-    def _populate_dropdown(self):
-        titles = [topic["title"] for topic in self.topics]
+    def _topic_category(self, topic):
+        return topic.get("category") or TITLE_CATEGORY_MAP.get(topic["title"], "Uncategorized")
+
+    def _topics_for_selected_category(self):
+        category = self.category_var.get()
+        if not category or category == "All Categories":
+            return self.topics
+        return [topic for topic in self.topics if self._topic_category(topic) == category]
+
+    def _populate_dropdowns(self):
+        categories = sorted({self._topic_category(topic) for topic in self.topics})
+        self.category_combo["values"] = ["All Categories"] + categories
+        if self.category_var.get() not in self.category_combo["values"]:
+            self.category_var.set("All Categories")
+        self._populate_topic_dropdown()
+
+    def _populate_topic_dropdown(self):
+        titles = [topic["title"] for topic in self._topics_for_selected_category()]
         self.topic_combo["values"] = titles
         if titles:
-            self.topic_var.set(titles[0])
+            current = self.topic_var.get()
+            self.topic_var.set(current if current in titles else titles[0])
+
+    def on_category_change(self):
+        self._populate_topic_dropdown()
+        selected_title = self.topic_var.get()
+        topic = self.title_index.get(selected_title)
+        if topic and topic in self._topics_for_selected_category():
+            self.display_topic(topic, source_label="Loaded from category filter")
+            self.status_var.set(f"Filtered by category: {self.category_var.get()}")
+        else:
+            filtered_topics = self._topics_for_selected_category()
+            if filtered_topics:
+                self.topic_var.set(filtered_topics[0]["title"])
+                self.display_topic(filtered_topics[0], source_label="Loaded from category filter")
+                self.status_var.set(f"Filtered by category: {self.category_var.get()}")
+            else:
+                self.left_text.delete("1.0", tk.END)
+                self.right_text.delete("1.0", tk.END)
+                self.status_var.set(f"No topics in category: {self.category_var.get()}")
 
     def tokenize(self, text: str):
         words = re.findall(r"[a-zA-Z0-9']+", text.lower())
@@ -690,6 +889,8 @@ class SovCitApp:
         self.populate_match_list([topic["title"] for _, topic in top_matches])
 
         best_score, best_topic = top_matches[0]
+        self.category_var.set(self._topic_category(best_topic))
+        self._populate_topic_dropdown()
         self.topic_var.set(best_topic["title"])
         self.display_topic(best_topic, source_label=f"Best match for: {query}")
 
@@ -718,11 +919,14 @@ class SovCitApp:
         title = self.topic_var.get()
         topic = self.title_index.get(title)
         if topic:
+            self.category_var.set(self._topic_category(topic))
+            self._populate_topic_dropdown()
             self.display_topic(topic, source_label="Loaded from dropdown")
             self.status_var.set(f"Loaded: {title}")
 
     def random_topic(self):
-        topic = random.choice(self.topics)
+        candidates = self._topics_for_selected_category()
+        topic = random.choice(candidates if candidates else self.topics)
         self.topic_var.set(topic["title"])
         self.display_topic(topic, source_label="Random topic")
         self.status_var.set(f"Randomized: {topic['title']}")
